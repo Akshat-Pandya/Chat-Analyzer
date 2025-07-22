@@ -84,13 +84,6 @@ if uploaded_file is not None:
         fig, ax = plt.subplots()
         ax = sns.heatmap(user_heatmap)
         st.pyplot(fig)
-        
-
-
-
-
-
-
 
         # finding the busiest users in the group(Group level)
         if selected_user == 'Overall':
